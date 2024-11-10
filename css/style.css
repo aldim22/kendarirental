@@ -44,7 +44,8 @@ License: copyright commercial
   --theme-color2-rgb: 0, 0, 0;
   --theme-color-light-rgb: 255, 255, 255;
   --theme-color-dark-rgb: 0, 0, 0;
-  --theme-color1: #ffee02;
+  /* --theme-color1: #ffee02; */
+  --theme-color1: #ff0000;
   --theme-color2: #000000;
   --review-color: #fdc009;
   --theme-color-light: #FFFFFF;
@@ -1860,7 +1861,7 @@ Scroll To Top style
 }
 
 .bg-overlay {
-  background-image: url(../images/icons/overlay.png);
+  /* background-image: url(../images/icons/overlay.png); */
   background-size: cover;
   height: 100%;
   width: 936px;
@@ -1897,8 +1898,10 @@ Scroll To Top style
 }
 
 .bg-overlay-7 {
-  width: 585px;
-  height: 509px;
+  /* width: 585px;
+  height: 509px; */
+  width: 462px;
+    height: 500px;
   background-image: url(../images/icons/overlay-7.png);
 }
 
@@ -3651,7 +3654,7 @@ Main Header
   right: 50px;
   width: 837px;
   height: 842px;
-  background-image: url(../images/main-slider/overlay.png);
+  /* background-image: url(../images/main-slider/overlay.png); */
 }
 @media only screen and (max-width: 1699px) {
   .main-slider .tp-dottedoverlay:after {
@@ -6384,7 +6387,7 @@ Main Header
 }
 .service-block .inner-box::before {
   position: absolute;
-  left: 80px;
+  left: 70px;
   bottom: 0;
   width: 200px;
   height: 381px;

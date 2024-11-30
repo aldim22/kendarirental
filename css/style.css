@@ -1231,6 +1231,11 @@ Scroll To Top style
     font-size: 4em;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main-slider{
+    display: none;
+  }
+}
 .preloader h2:before {
   content: attr(data-text);
   position: absolute;
